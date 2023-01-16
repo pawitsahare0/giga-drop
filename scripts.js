@@ -137,7 +137,7 @@ sliceandsend(file);
    var fileSize = file.size;
    var name = file.name;
    var mime = file.type;
-   var chunkSize = 64 * 8192; // bytes
+   var chunkSize = 64 * 2048; // bytes
    var offset = 0;
    var sendProgress=0;
 
